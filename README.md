@@ -1,5 +1,5 @@
 # MarqueeView
-MarqueeView升级版，优化了list集合每行数据超过屏幕宽度之后省略号的问题，可自动换行显示。
+MarqueeView升级版，优化了list每行数据超过屏幕宽度之后显示省略号的问题。
 
 效果图
 ---
