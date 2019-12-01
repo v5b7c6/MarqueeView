@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <com.v5b7c6.android.marqueeview.MarqueeView
+        android:id="@+id/marqueeView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:flipInterval="3000"
+        app:gravity="center_vertical"
+        app:marqueeAnimDuration="500"
+        app:inAnimResId="@anim/anim_right_in"
+        app:outAnimResId="@anim/anim_left_out"
+        app:singleLine="true"
+        app:textSize="20sp" />
+
+    <com.v5b7c6.android.marqueeview.MarqueeView
+        android:id="@+id/marqueeView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:flipInterval="3000"
+        app:gravity="center_vertical"
+        app:marqueeAnimDuration="500"
+        app:inAnimResId="@anim/anim_left_in"
+        app:outAnimResId="@anim/anim_right_out"
+        app:singleLine="true"
+        app:textSize="20sp" />
+
+    <com.v5b7c6.android.marqueeview.MarqueeView
+        android:id="@+id/marqueeView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_oval_radius"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        app:inAnimResId="@anim/anim_top_in"
+        app:outAnimResId="@anim/anim_bottom_out"
+        app:gravity="center_vertical"
+        app:singleLine="true"
+        app:textColor="#ffffff"
+        app:textSize="18sp" />
+
+    <com.v5b7c6.android.marqueeview.MarqueeView
+        android:id="@+id/marqueeView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_oval_radius"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        app:gravity="center_vertical"
+        app:singleLine="true"
+        app:textColor="#ffffff"
+        app:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_notices" />
+
+        <com.v5b7c6.android.marqueeview.MarqueeView
+            android:id="@+id/marqueeView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:gravity="center_vertical"
+            app:singleLine="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
