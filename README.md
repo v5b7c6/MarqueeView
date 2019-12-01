@@ -3,7 +3,7 @@
 
 效果图
 ---
-<img src="/screenshots/ezgif-6-f16ba33c85d8.gif"/>
+<img src="/screenshots/gifhome_480x960_10s.gif"/>
 
 示例Apk下载
 ---
