@@ -30,7 +30,7 @@ MarqueeView属性
 #### XML
 ```
 <com.v5b7c6.android.marqueeview.MarqueeView
-    android:id="@+id/verticalMarqueeTextView1"
+    android:id="@+id/marqueeView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:gravity="center_vertical"
