@@ -12,7 +12,7 @@ MarqueeView升级版，优化了list每行数据超过屏幕宽度之后显示�
 ## 使用
 
 ### Gradle:
-implementation ''
+implementation 'com.github.v5b7c6:MarqueeView:1.0'
 
 ### 属性
 MarqueeView属性
