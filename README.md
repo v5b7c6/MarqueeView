@@ -1,9 +1,9 @@
 # MarqueeView
-
+MarqueeView升级版，优化了list每行数据超过屏幕宽度之后显示省略号的问题。
 
 效果图
 ---
-<img src="/screenshots/ezgif-6-f16ba33c85d8.gif"/>
+<img src="/screenshots/gifhome_480x960_10s.gif"/>
 
 示例Apk下载
 ---
@@ -12,7 +12,7 @@
 ## 使用
 
 ### Gradle:
-implementation ''
+implementation 'com.github.v5b7c6:MarqueeView:1.0'
 
 ### 属性
 MarqueeView属性
