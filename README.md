@@ -35,8 +35,8 @@ MarqueeView属性
     android:layout_height="wrap_content"
     app:gravity="center_vertical"
     app:marqueeAnimDuration="500"
-    app:inAnimResId="@anim/anim_right_in"
-    app:outAnimResId="@anim/anim_left_out"
+    app:inAnimResId="@anim/anim_bottom_in"
+    app:outAnimResId="@anim/anim_top_out"
     app:singleLine="true"
     app:textSize="20sp" />
 ```
