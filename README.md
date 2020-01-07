@@ -12,7 +12,7 @@ MarqueeView升级版，原版MarqueeView是每条数据只展示一行超出屏�
 ## 使用
 
 ### Gradle:
-implementation 'com.github.v5b7c6:MarqueeView:1.0'
+implementation 'com.github.v5b7c6:MarqueeView:1.0.0'
 
 ### 属性
 MarqueeView属性
